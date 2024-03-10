@@ -1,0 +1,2718 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YayMail Pro - WooCommerce Email Customizer\n"
+"POT-Creation-Date: 2023-04-18 10:38+0700\n"
+"PO-Revision-Date: 2023-04-18 15:08+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: yaymail.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#. translators: %s: Plugin name.
+#: assets/admin/js/plugin-install.js:162
+#, javascript-format
+msgid "Plugin: %s"
+msgstr "Plugin installeren: %s"
+
+#: assets/admin/js/plugin-install.js:165 assets/admin/js/plugin-install.js:179
+msgid "Plugin details"
+msgstr "Plugin details"
+
+#: includes/Ajax.php:67
+msgid "Export successfully."
+msgstr "Exporteren met succes."
+
+#: includes/Ajax.php:200 includes/Ajax.php:279 includes/Ajax.php:425
+#: includes/Ajax.php:617 includes/Ajax.php:675 includes/Ajax.php:698
+#: includes/Ajax.php:869 includes/Ajax.php:899 includes/Ajax.php:922
+#: includes/Ajax.php:950 includes/Ajax.php:998 includes/Ajax.php:1030
+#: includes/Ajax.php:1065 includes/Ajax.php:1082 includes/Ajax.php:1099
+#: includes/Ajax.php:1117 includes/Ajax.php:1133 includes/Ajax.php:1181
+#: includes/Helper/Helper.php:14 includes/MailBuilder/Shortcodes.php:807
+msgid "Nonce is invalid"
+msgstr "Nonce is ongeldig"
+
+#: includes/Ajax.php:217
+msgid "Plugin installation successful."
+msgstr "Plugin installatie geslaagd."
+
+#: includes/Ajax.php:287
+msgid "Invalid email format!"
+msgstr "Verkeerd emailadres!"
+
+#: includes/Ajax.php:320
+msgid "Email has been sent."
+msgstr "E-mail is verstuurd."
+
+#: includes/Ajax.php:327 includes/Ajax.php:601 includes/Ajax.php:655
+#: includes/Ajax.php:658 includes/Ajax.php:741
+msgid "Template not Exists!."
+msgstr "Sjabloon bestaat niet!."
+
+#: includes/Ajax.php:331
+msgid "Error send mail!"
+msgstr "Fout bij het verzenden van e-mail!"
+
+#: includes/Ajax.php:341
+msgid "Email Test"
+msgstr "E-mailtest"
+
+#: includes/Ajax.php:430 includes/Ajax.php:635 includes/Ajax.php:714
+#: includes/Ajax.php:735 includes/Ajax.php:973
+#: includes/MailBuilder/Shortcodes.php:1015
+#: includes/Page/Source/DefaultElement.php:12
+#: includes/Templates/DefaultTemplate/AdvancedShipmentTracking/PartiallyShipped.php:26
+#: includes/Templates/DefaultTemplate/AdvancedShipmentTracking/ShippedOrder.php:26
+#: includes/Templates/DefaultTemplate/CancelledOrder.php:30
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:50
+#: includes/Templates/DefaultTemplate/CustomerCompletedOrder.php:28
+#: includes/Templates/DefaultTemplate/CustomerInvoice.php:30
+#: includes/Templates/DefaultTemplate/CustomerNote.php:29
+#: includes/Templates/DefaultTemplate/CustomerOnHoldOrder.php:28
+#: includes/Templates/DefaultTemplate/CustomerProcessingOrder.php:30
+#: includes/Templates/DefaultTemplate/CustomerRefundedOrder.php:28
+#: includes/Templates/DefaultTemplate/FailedOrder.php:29
+#: includes/Templates/DefaultTemplate/NewOrder.php:27
+#: includes/Templates/DefaultTemplate/OrderStatus.php:32
+#: views/templates/emails/email-billing-shipping-address-title.php:13
+#: views/templates/emails/email-billing-shipping-address.php:21
+msgid "Shipping Address"
+msgstr "Verzendadres"
+
+#: includes/Ajax.php:431 includes/Ajax.php:636 includes/Ajax.php:715
+#: includes/Ajax.php:736 includes/Ajax.php:974
+#: includes/MailBuilder/Shortcodes.php:1016
+#: includes/Page/Source/DefaultElement.php:13
+#: includes/Templates/DefaultTemplate/AdvancedShipmentTracking/PartiallyShipped.php:27
+#: includes/Templates/DefaultTemplate/AdvancedShipmentTracking/ShippedOrder.php:27
+#: includes/Templates/DefaultTemplate/CancelledOrder.php:31
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:51
+#: includes/Templates/DefaultTemplate/CustomerCompletedOrder.php:29
+#: includes/Templates/DefaultTemplate/CustomerInvoice.php:31
+#: includes/Templates/DefaultTemplate/CustomerNote.php:30
+#: includes/Templates/DefaultTemplate/CustomerOnHoldOrder.php:29
+#: includes/Templates/DefaultTemplate/CustomerProcessingOrder.php:31
+#: includes/Templates/DefaultTemplate/CustomerRefundedOrder.php:29
+#: includes/Templates/DefaultTemplate/FailedOrder.php:30
+#: includes/Templates/DefaultTemplate/NewOrder.php:28
+#: includes/Templates/DefaultTemplate/OrderStatus.php:33
+#: views/templates/emails/email-billing-shipping-address-title.php:14
+#: views/templates/emails/email-billing-shipping-address.php:14
+msgid "Billing Address"
+msgstr "Factuuradres"
+
+#: includes/Ajax.php:594
+msgid "Email has been saved."
+msgstr "E-mail is opgeslagen."
+
+#: includes/Ajax.php:604 includes/Ajax.php:661
+msgid "Error save data."
+msgstr "Fout bij het opslaan van gegevens."
+
+#: includes/Ajax.php:650
+msgid "Copied Template successfully."
+msgstr "Sjabloon met succes gekopieerd."
+
+#: includes/Ajax.php:685 includes/Ajax.php:745
+msgid "Error Reset Template!"
+msgstr "Fout Reset Template!"
+
+#: includes/Ajax.php:728 includes/Ajax.php:739
+msgid "Template reset successfully."
+msgstr "Sjabloon opnieuw instellen met succes."
+
+#: includes/Ajax.php:847
+msgid "Import Failed."
+msgstr "Importeren mislukt."
+
+#: includes/Ajax.php:849
+msgid "Imported successfully."
+msgstr "Geïmporteerd met succes."
+
+#: includes/Ajax.php:851
+msgid "File not found."
+msgstr "Bestand niet gevonden."
+
+#: includes/Ajax.php:854
+msgid "File not correct format."
+msgstr "Bestand niet correct formaat."
+
+#: includes/Ajax.php:857
+msgid "Please upload 1 file to import."
+msgstr "Upload 1 bestand om te importeren."
+
+#: includes/Ajax.php:883 includes/Ajax.php:907
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen."
+
+#: includes/Ajax.php:885 includes/Ajax.php:909 includes/Ajax.php:937
+#: includes/Ajax.php:985
+msgid "Settings Failed!."
+msgstr "Instellingen mislukt!."
+
+#: includes/Ajax.php:935
+msgid "Language changed. Please wait for reloading page"
+msgstr "Taal veranderd. Wacht op het opnieuw laden van de pagina"
+
+#: includes/Ajax.php:980
+msgid "change revision"
+msgstr "herziening wijzigen"
+
+#: includes/Ajax.php:1010
+msgid "clear revision"
+msgstr "duidelijke revisie"
+
+#: includes/Ajax.php:1014
+msgid "Not have template"
+msgstr "Geen sjabloon hebben"
+
+#: includes/Ajax.php:1017
+msgid "Failed!."
+msgstr "Bestelling mislukt: #{order_number}"
+
+#: includes/Ajax.php:1055 includes/Ajax.php:1057 includes/Ajax.php:1072
+#: includes/Ajax.php:1074 includes/Ajax.php:1089 includes/Ajax.php:1091
+#: includes/Ajax.php:1106 includes/Ajax.php:1108 includes/Ajax.php:1123
+#: includes/Ajax.php:1125
+msgid "Failed!"
+msgstr "Mislukt!"
+
+#: includes/Ajax.php:1163 includes/Ajax.php:1214
+msgid "get successfully."
+msgstr "met succes."
+
+#: includes/Fallback.php:11
+msgid ""
+"It looks like you have another YayMail version installed, please delete it "
+"before activating this new version. All current settings and data are still "
+"preserved."
+msgstr ""
+"Het lijkt erop dat je een andere YayMail-versie hebt geïnstalleerd, "
+"verwijder deze voordat je deze nieuwe versie activeert. Alle huidige "
+"instellingen en gegevens blijven behouden."
+
+#: includes/Fallback.php:12
+msgid "Read more details."
+msgstr "Lees verder voor de details."
+
+#: includes/Helper/Helper.php:232
+#: views/templates/emails/email-order-details-border-title.php:9
+#: views/templates/emails/sampleOrder/email-order-details-border-title.php:9
+msgid "[Order #"
+msgstr "[Bestelling #"
+
+#: includes/Helper/Helper.php:233 includes/Helper/Helper.php:260
+#: views/templates/emails/email-order-details-border.php:143
+#: views/templates/emails/email-order-details.php:145
+#: views/templates/emails/email-order-item-download.php:23
+#: views/templates/emails/email-order-items-preview.php:30
+#: views/templates/emails/email-order-items.php:30
+#: views/templates/emails/sampleOrder/email-order-details-border.php:28
+#: views/templates/emails/sampleOrder/email-order-details.php:27
+#: views/templates/emails/sampleOrder/email-order-item-download.php:23
+msgid "Product"
+msgstr "Product"
+
+#: includes/Helper/Helper.php:234
+#: views/templates/emails/email-order-details-border.php:147
+#: views/templates/emails/sampleOrder/email-order-details-border.php:32
+msgid "Cost"
+msgstr "Kosten"
+
+#: includes/Helper/Helper.php:235
+#: views/templates/emails/email-order-details-border.php:151
+#: views/templates/emails/email-order-details.php:149
+#: views/templates/emails/email-order-details.php:153
+#: views/templates/emails/sampleOrder/email-order-details-border.php:36
+#: views/templates/emails/sampleOrder/email-order-details.php:30
+msgid "Quantity"
+msgstr "Aantal"
+
+#: includes/Helper/Helper.php:236 includes/Helper/Helper.php:249
+#: includes/I18n.php:214
+#: views/templates/emails/email-order-details-border.php:154
+#: views/templates/emails/email-order-details.php:156
+#: views/templates/emails/sampleOrder/email-order-details-border.php:39
+#: views/templates/emails/sampleOrder/email-order-details.php:33
+msgid "Price"
+msgstr "Prijs"
+
+#: includes/Helper/Helper.php:237
+#: views/templates/emails/sampleOrder/email-order-details-border.php:57
+#: views/templates/emails/sampleOrder/email-order-details.php:51
+msgid "Subtotal:"
+msgstr "Subtotaal:"
+
+#: includes/Helper/Helper.php:238
+msgid "Discount:"
+msgstr "Korting:"
+
+#: includes/Helper/Helper.php:239
+msgid "Shipping:"
+msgstr "Verzending:"
+
+#: includes/Helper/Helper.php:240
+#: views/templates/emails/sampleOrder/email-order-details-border.php:65
+#: views/templates/emails/sampleOrder/email-order-details.php:59
+msgid "Payment method:"
+msgstr "Betaalmethode:"
+
+#: includes/Helper/Helper.php:241
+#: views/templates/emails/email-order-details-border-content.php:105
+#: views/templates/emails/email-order-details-border-content.php:114
+#: views/templates/emails/email-order-details-border-content.php:128
+#: views/templates/emails/email-order-details-border-content.php:145
+msgid "Order fully refunded."
+msgstr "Bestelling volledig terugbetaald."
+
+#: includes/Helper/Helper.php:242
+#: views/templates/emails/sampleOrder/email-order-details-border.php:73
+#: views/templates/emails/sampleOrder/email-order-details.php:67
+msgid "Total:"
+msgstr "Totaal:"
+
+#: includes/Helper/Helper.php:243
+#: views/templates/emails/email-order-details-border.php:203
+#: views/templates/emails/email-order-details.php:206
+msgid "Note:"
+msgstr "Notitie:"
+
+#: includes/Helper/Helper.php:244
+msgid "ID"
+msgstr "ID"
+
+#: includes/Helper/Helper.php:245
+msgid "Start date"
+msgstr "Startdatum"
+
+#: includes/Helper/Helper.php:246
+#: views/templates/emails/fooevents_ticket_details.php:45
+msgid "End date"
+msgstr "Einddatum"
+
+#: includes/Helper/Helper.php:247
+msgid "Recurring total"
+msgstr "Totaal per maand"
+
+#: includes/Helper/Helper.php:248
+msgid "Subscription"
+msgstr "Abonnement"
+
+#: includes/Helper/Helper.php:250
+msgid "Last Order Date"
+msgstr "Datum laatste bestelling"
+
+#: includes/Helper/Helper.php:251
+msgid "End of Prepaid Term"
+msgstr "Einde van de termijn"
+
+#: includes/Helper/Helper.php:252
+msgid "Date Suspended"
+msgstr "Datum opgeschort"
+
+#: includes/Helper/Helper.php:259
+msgid "Downloads"
+msgstr "Downloads"
+
+#: includes/Helper/Helper.php:261
+#: views/templates/emails/email-order-item-download.php:24
+#: views/templates/emails/sampleOrder/email-order-item-download.php:24
+msgid "Expires"
+msgstr "Verloopt"
+
+#: includes/Helper/Helper.php:262
+#: views/templates/emails/email-order-item-download.php:25
+#: views/templates/emails/sampleOrder/email-order-item-download.php:25
+msgid "Download"
+msgstr "Download"
+
+#: includes/Helper/Helper.php:291 includes/Templates/Templates.php:49
+msgid "Order partial shipped"
+msgstr "Bestelling gedeeltelijk verzonden"
+
+#: includes/Helper/Helper.php:303 includes/Templates/Templates.php:60
+msgid "AutomateWoo Referrals Email"
+msgstr "AutomateWoo Verwijzingen E-mail"
+
+#: includes/Helper/LogHelper.php:40
+msgid "SYSTEM ERROR:"
+msgstr "SYSTEEMFOUT:"
+
+#: includes/Helper/LogHelper.php:52
+msgid "log-"
+msgstr ".log-"
+
+#: includes/I18n.php:44
+msgid "ELEMENTS"
+msgstr "ELEMENTEN"
+
+#: includes/I18n.php:45
+msgid "SETTINGS"
+msgstr "Instellingen"
+
+#: includes/I18n.php:46
+msgid "WooCommerce Email Customizer"
+msgstr "WooCommerce E-mail Customizer"
+
+#: includes/I18n.php:47
+msgid "BACKGROUND COLOR"
+msgstr "ACHTERGRONDKLEUR"
+
+#: includes/I18n.php:48
+msgid "Select Color"
+msgstr "Selecteer kleur"
+
+#: includes/I18n.php:49
+msgid "Basic"
+msgstr "Basis"
+
+#: includes/I18n.php:50
+msgid "General"
+msgstr "Algemeen"
+
+#: includes/I18n.php:51
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/I18n.php:52
+msgid "DIRECTION RTL"
+msgstr "RICHTING RTL"
+
+#: includes/I18n.php:53
+msgid "CONTAINER WIDTH (PX)"
+msgstr "CONTAINER BREEDTE (PX)"
+
+#: includes/I18n.php:54
+msgid "Email width must be 480px (min) - 900px (max)"
+msgstr "E-mailbreedte moet 480px (min) - 900px (max) zijn"
+
+#: includes/I18n.php:55
+msgid "Please input container width!"
+msgstr "Voer de breedte van de container in!"
+
+#: includes/I18n.php:56
+msgid "DISPLAY PAYMENT INSTRUCTION AND DETAILS"
+msgstr "BETALINGSINSTRUCTIES EN -DETAILS WEERGEVEN"
+
+#: includes/I18n.php:57
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/I18n.php:58
+msgid "No"
+msgstr "Nee"
+
+#: includes/I18n.php:59
+msgid "Only for customer"
+msgstr "Alleen voor klant"
+
+#: includes/I18n.php:60
+msgid "SHOW PRODUCT IMAGE"
+msgstr "TOON PRODUCTAFBEELDING"
+
+#: includes/I18n.php:61
+msgid "PRODUCT IMAGE POSITION"
+msgstr "POSITIE VAN HET PRODUCTAFBEELDING"
+
+#: includes/I18n.php:62
+msgid "IMAGE SIZE"
+msgstr "AFBEELDINGSGROOTTE"
+
+#: includes/I18n.php:63
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: includes/I18n.php:64
+msgid "Full"
+msgstr "Volledig"
+
+#: includes/I18n.php:65
+msgid "IMAGE HEIGHT (PX)"
+msgstr "HOOGTE AFBEELDING (PX)"
+
+#: includes/I18n.php:66
+msgid "Image height must be 30px (min) - 300px (max)"
+msgstr "Beeldhoogte moet 30px (min) - 300px (max) zijn"
+
+#: includes/I18n.php:67
+msgid "Please input imgage height!"
+msgstr "Voer de imgagehoogte in!"
+
+#: includes/I18n.php:68
+msgid "IMAGE WIDTH (PX)"
+msgstr "AFBEELDING BREEDTE (PX)"
+
+#: includes/I18n.php:69
+msgid "Image width must be 30px (min) - 300px (max)"
+msgstr "Afbeeldingsbreedte moet 30px (min) - 300px (max) zijn"
+
+#: includes/I18n.php:70
+msgid "Please input imgage width!"
+msgstr "Voer imgage breedte in!"
+
+#: includes/I18n.php:71
+msgid "SHOW PRODUCT SKU"
+msgstr "TOON PRODUCT SKU"
+
+#: includes/I18n.php:72
+msgid "SHOW PRODUCT DESCRIPTION"
+msgstr "TOON PRODUCTBESCHRIJVING"
+
+#: includes/I18n.php:73
+msgid "SHOW PRODUCT HYPERLINKS"
+msgstr "PRODUCTHYPERLINKS WEERGEVEN"
+
+#: includes/I18n.php:74
+msgid "SHOW PRODUCT REGULAR PRICE"
+msgstr "TOON PRODUCT NORMALE PRIJS"
+
+#: includes/I18n.php:75
+msgid "SHOW PRODUCT ITEM COST"
+msgstr "PRODUCTARTIKELKOSTEN WEERGEVEN"
+
+#: includes/I18n.php:76
+msgid "CUSTOM CSS"
+msgstr "AANGEPASTE CSS"
+
+#: includes/I18n.php:77
+msgid "Refresh"
+msgstr "Ververs"
+
+#: includes/I18n.php:78
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: includes/I18n.php:79
+msgid "Change email subject and form name"
+msgstr "E-mailonderwerp en formuliernaam wijzigen"
+
+#: includes/I18n.php:80
+msgid "Click here"
+msgstr "Klik hier"
+
+#: includes/I18n.php:81
+msgid "Please check again"
+msgstr "Controleer het nogmaals"
+
+#: includes/I18n.php:82
+msgid "Save"
+msgstr "Opslaan"
+
+#: includes/I18n.php:83
+msgid ""
+"Please refresh page to apply Custom CSS. Make sure to save your changes "
+"before refreshing."
+msgstr ""
+"Vernieuw de pagina om aangepaste CSS toe te passen. Zorg ervoor dat u uw "
+"wijzigingen opslaat voordat u deze vernieuwt."
+
+#: includes/I18n.php:84
+msgid "Email Settings"
+msgstr "E-mail Instellingen"
+
+#: includes/I18n.php:85
+msgid "EMAIL CONTENT BACKGROUND COLOR"
+msgstr "ACHTERGRONDKLEUR VAN E-MAILINHOUD"
+
+#: includes/I18n.php:86
+msgid "Reset default"
+msgstr "Reset standaard"
+
+#: includes/I18n.php:87
+msgid "TEXT LINK COLOR"
+msgstr "KLEUR TEKSTKOPPELING"
+
+#: includes/I18n.php:88
+msgid "Enable/Disable Templates"
+msgstr "Sjablonen in-/uitschakelen"
+
+#: includes/I18n.php:89
+msgid "Reset Templates"
+msgstr "Sjablonen opnieuw instellen"
+
+#: includes/I18n.php:90
+msgid "Reset template"
+msgstr "Fout Reset Template"
+
+#: includes/I18n.php:91
+msgid "RESET ALL TEMPLATES TO DEFAULT"
+msgstr "ALLE SJABLONEN TERUGZETTEN OP DE STANDAARDWAARDEN"
+
+#: includes/I18n.php:92
+msgid "Reset"
+msgstr "Reset"
+
+#: includes/I18n.php:93 includes/I18n.php:235
+msgid "Yes, sure!"
+msgstr "Ja, zeker!"
+
+#: includes/I18n.php:94
+msgid "All your saved template will be reset to default"
+msgstr "Al uw opgeslagen sjabloon wordt teruggezet naar de standaardwaarden"
+
+#: includes/I18n.php:95
+msgid "Import/Export Templates"
+msgstr "Sjablonen importeren/exporteren"
+
+#: includes/I18n.php:96
+msgid "EXPORT"
+msgstr "EXPORTIEREN"
+
+#: includes/I18n.php:97
+msgid "Export Templates"
+msgstr "Templates Exporteren"
+
+#: includes/I18n.php:98
+msgid "IMPORT TEMPLATES"
+msgstr "SJABLONEN IMPORTEREN"
+
+#: includes/I18n.php:99
+msgid "Choose File"
+msgstr "Kies bestand"
+
+#: includes/I18n.php:100 includes/I18n.php:126
+msgid "Import"
+msgstr "Importeren"
+
+#: includes/I18n.php:101
+msgid "No file chosen"
+msgstr "Geen bestand gekozen"
+
+#: includes/I18n.php:102
+msgid "BACK TO DASHBOARD"
+msgstr "TERUG NAAR DASHBOARD"
+
+#: includes/I18n.php:103
+msgid "Sample order to show"
+msgstr "Voorbeeldvolgorde om weer te geven"
+
+#: includes/I18n.php:104
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: includes/I18n.php:105
+msgid "generals"
+msgstr "Generaals"
+
+#: includes/I18n.php:106
+msgid "order Details"
+msgstr "bestel details"
+
+#: includes/I18n.php:107
+msgid "shippings"
+msgstr "verzendingen"
+
+#: includes/I18n.php:108
+msgid "billings"
+msgstr "Billings"
+
+#: includes/I18n.php:109
+msgid "Vendor"
+msgstr "Verkoper"
+
+#: includes/I18n.php:110
+msgid "payments"
+msgstr "betalingen"
+
+#: includes/I18n.php:111
+msgid "new users"
+msgstr "nieuwe gebruikers"
+
+#: includes/I18n.php:112
+msgid "reset password"
+msgstr "wachtwoord opnieuw instellen"
+
+#: includes/I18n.php:113
+msgid "ORDER TAXES"
+msgstr "BESTEL BELASTINGEN"
+
+#: includes/I18n.php:114
+msgid "CUSTOM ORDER META"
+msgstr "META AANGEPASTE VOLGORDE"
+
+#: includes/I18n.php:115
+msgid "AUTOMATEWOO"
+msgstr "AUTOMATEWOO"
+
+#: includes/I18n.php:116
+msgid "Send Email"
+msgstr "Verstuur E-mail"
+
+#: includes/I18n.php:117
+msgid "Email address for test"
+msgstr "E-mailadres voor test"
+
+#: includes/I18n.php:118
+msgid "Yay! Email sent successfully."
+msgstr "Yay! E-mail succesvol verzonden."
+
+#: includes/I18n.php:119
+msgid "To send emails to inbox, we recommend:"
+msgstr ""
+"Als u e-mails naar uw Postvak IN wilt verzenden, raden we u het volgende aan:"
+
+#: includes/I18n.php:120
+msgid "YaySMTP – Simple WP SMTP Mail"
+msgstr "YaySMTP - Eenvoudige WP SMTP Mail"
+
+#: includes/I18n.php:121
+msgid "Details"
+msgstr "Details"
+
+#: includes/I18n.php:122
+msgid "Free Install Now"
+msgstr "Gratis nu installeren"
+
+#: includes/I18n.php:123
+msgid "Are you sure you want to leave?"
+msgstr "Weet je zeker dat je weg wilt?"
+
+#: includes/I18n.php:124
+msgid "Leave"
+msgstr "Verlof"
+
+#: includes/I18n.php:125
+msgid "Import template from"
+msgstr "Sjabloon importeren uit"
+
+#: includes/I18n.php:127
+msgid "Copy From"
+msgstr "Kopiëren van"
+
+#: includes/I18n.php:128
+msgid "Are you sure you want to reset this template?"
+msgstr "Weet u zeker dat u deze sjabloon opnieuw wilt instellen?"
+
+#: includes/I18n.php:129
+msgid "All changes you made won't be saved."
+msgstr "Alle wijzigingen die u hebt aangebracht, worden niet opgeslagen."
+
+#: includes/I18n.php:130
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: includes/I18n.php:131
+msgid "Email preview"
+msgstr "Voorvertoning e-mail"
+
+#: includes/I18n.php:132
+msgid "Desktop preview"
+msgstr "Bureaubladvoorbeeld"
+
+#: includes/I18n.php:133
+msgid "Mobile preview"
+msgstr "Mobiele preview"
+
+#: includes/I18n.php:134
+#,  
+msgid "Yay! You've made the right choice!"
+msgstr "Yay! Je hebt de juiste keuze gemaakt!"
+
+#: includes/I18n.php:135
+#,  
+msgid "Get YayMail Pro"
+msgstr "YayMail Pro kopen"
+
+#: includes/I18n.php:136
+#,  
+msgid "Unlock full features and premium support"
+msgstr "Ontgrendel alle functies en premium ondersteuning"
+
+#: includes/I18n.php:137
+#,  
+msgid "Undo & Redo"
+msgstr "Ongedaan maken & Opnieuw uitvoeren"
+
+#: includes/I18n.php:138
+#,  
+msgid "Get recent editing actions and revisions"
+msgstr "Ontvang recente bewerkingsacties en revisies"
+
+#: includes/I18n.php:139
+#,  
+msgid "Compatible with 20+ third-party plugins"
+msgstr "Compatibel met 20+ plug-ins van derden"
+
+#: includes/I18n.php:140
+#,  
+msgid "Custom Order Status"
+msgstr "Status van aangepaste bestelling"
+
+#: includes/I18n.php:141
+msgid "WooCommerce Shipment Tracking"
+msgstr "WooCommerce Shipment Tracking"
+
+#: includes/I18n.php:142
+#,  
+msgid "Checkout Field Editor"
+msgstr "Afrekenveldeditor"
+
+#: includes/I18n.php:143
+#,  
+msgid "WPML, Polylang, TranslatePress, and more!"
+msgstr "WPML, Polylang, TranslatePress en meer!"
+
+#: includes/I18n.php:144
+msgid "Buy Now"
+msgstr "Koop Nu"
+
+#: includes/I18n.php:145
+#,  
+msgid "Save template?"
+msgstr "Sjabloon opslaan?"
+
+#: includes/I18n.php:146
+#,  
+msgid "No, don't save"
+msgstr "Nee, niet opslaan"
+
+#: includes/I18n.php:147
+#,  
+msgid "Do you want to save before moving to another template?"
+msgstr "Wilt u opslaan voordat u naar een andere sjabloon gaat?"
+
+#: includes/I18n.php:148
+msgid "Email to show"
+msgstr "E-mail Weergave"
+
+#: includes/I18n.php:149
+#,  
+msgid "This feature is available in YayMail Pro"
+msgstr "Deze functie is beschikbaar in YayMail Pro"
+
+#: includes/I18n.php:150
+#,  
+msgid "Input text"
+msgstr "Tekst invoeren"
+
+#: includes/I18n.php:151
+#,  
+msgid "Import text"
+msgstr "Tekst importeren"
+
+#: includes/I18n.php:152
+#,  
+msgid "Text padding"
+msgstr "Tekstopvulling"
+
+#: includes/I18n.php:153
+#,  
+msgid "Import path url"
+msgstr "Url van pad importeren"
+
+#: includes/I18n.php:154
+#,  
+msgid "Refresh page?"
+msgstr "Pagina vernieuwen?"
+
+#: includes/I18n.php:155
+msgid "Go Pro"
+msgstr "Stap over naar de Pro-versie"
+
+#: includes/I18n.php:156
+msgid "Blocks"
+msgstr "Blokken"
+
+#: includes/I18n.php:157
+msgid "Elements"
+msgstr "Elementen"
+
+#: includes/I18n.php:158
+msgid "History"
+msgstr "Geschiedenis"
+
+#: includes/I18n.php:159
+#,  
+msgid "Happy with YayMail"
+msgstr "Blij met YayMail"
+
+#: includes/I18n.php:160
+#,  
+msgid ""
+"Are you happy with YayMail? You can give a review to motivate our developers "
+msgstr ""
+"Ben je blij met YayMail? U kunt een beoordeling geven om onze ontwikkelaars "
+"te motiveren "
+
+#: includes/I18n.php:161
+msgid "All your saved template will be reset to default."
+msgstr "Al uw opgeslagen sjabloon wordt teruggezet naar de standaardwaarden."
+
+#: includes/I18n.php:162
+#,  
+msgid "Already Did"
+msgstr "Deed dat al"
+
+#: includes/I18n.php:163
+#,  
+msgid "Rate Now"
+msgstr "Beoordeel nu"
+
+#: includes/I18n.php:164
+msgid "Padding"
+msgstr "Padding"
+
+#: includes/I18n.php:165
+msgid "Top"
+msgstr "Top"
+
+#: includes/I18n.php:166
+msgid "Left"
+msgstr "Links"
+
+#: includes/I18n.php:167
+msgid "Right"
+msgstr "Rechts"
+
+#: includes/I18n.php:168
+msgid "Bottom"
+msgstr "Onderkant"
+
+#: includes/I18n.php:169
+msgid "Background color"
+msgstr "Achtergrondkleur"
+
+#: includes/I18n.php:170
+msgid "Title color"
+msgstr "Titel kleur"
+
+#: includes/I18n.php:171
+msgid "Text color"
+msgstr "Tekstkleur"
+
+#: includes/I18n.php:172
+msgid "Border color"
+msgstr "Randkleur"
+
+#: includes/I18n.php:173
+msgid "Font family"
+msgstr "Lettertype"
+
+#: includes/I18n.php:174 includes/I18n.php:179
+#,  
+msgid "Order item title"
+msgstr "Titel van het orderitem"
+
+#: includes/I18n.php:175 includes/I18n.php:180
+msgid "Product title"
+msgstr "Product titel"
+
+#: includes/I18n.php:176 includes/I18n.php:181
+#,  
+msgid "Cost title"
+msgstr "Kostentitel"
+
+#: includes/I18n.php:177 includes/I18n.php:182
+msgid "Quantity title"
+msgstr "Titel Hoeveelheid"
+
+#: includes/I18n.php:178 includes/I18n.php:183
+#,  
+msgid "Price title"
+msgstr "Prijs titel"
+
+#: includes/I18n.php:184
+#,  
+msgid "Order fully refunded title"
+msgstr "Bestelling volledig terugbetaalde titel"
+
+#: includes/I18n.php:185
+#,  
+msgid "Note title"
+msgstr "Titel van de notitie"
+
+#: includes/I18n.php:186
+#,  
+msgid "Expires title"
+msgstr "Verloopt titel"
+
+#: includes/I18n.php:187
+#,  
+msgid "Download title"
+msgstr "Titel downloaden"
+
+#: includes/I18n.php:188
+msgid "Header title"
+msgstr "Header titel"
+
+#: includes/I18n.php:189
+msgid "Title"
+msgstr "Titel"
+
+#: includes/I18n.php:190
+msgid "Title size"
+msgstr "Titel grote"
+
+#: includes/I18n.php:191
+msgid "Subtitle"
+msgstr "Ondertitel"
+
+#: includes/I18n.php:192
+#,  
+msgid "Subtitle size"
+msgstr "Ondertitelingsgrootte"
+
+#: includes/I18n.php:193
+#,  
+msgid "Billing title"
+msgstr "Titel van facturering"
+
+#: includes/I18n.php:194
+msgid "Shipping title"
+msgstr "Titel verzendmethode"
+
+#: includes/I18n.php:195
+msgid "Type"
+msgstr "Type"
+
+#: includes/I18n.php:196
+msgid "Align"
+msgstr "Uitlijnen"
+
+#: includes/I18n.php:197
+msgid "Border width"
+msgstr "Randbreedte"
+
+#: includes/I18n.php:198
+msgid "Border style"
+msgstr "Randstijl"
+
+#: includes/I18n.php:199
+msgid "Solid"
+msgstr "Solid"
+
+#: includes/I18n.php:200
+msgid "Dashed"
+msgstr "Gestreept"
+
+#: includes/I18n.php:201
+msgid "Dotted"
+msgstr "Gestippeld"
+
+#: includes/I18n.php:202
+msgid "Border radius"
+msgstr "Border radius"
+
+#: includes/I18n.php:203
+msgid "Product type"
+msgstr "Product type"
+
+#: includes/I18n.php:204
+msgid "Sorted by"
+msgstr "Sorted by"
+
+#: includes/I18n.php:205
+msgid "Categories"
+msgstr "Categorieën"
+
+#: includes/I18n.php:206
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/I18n.php:207
+msgid "Products"
+msgstr "Producten"
+
+#: includes/I18n.php:208
+#,  
+msgid "Number of showing products"
+msgstr "Aantal getoonde producten"
+
+#: includes/I18n.php:209
+msgid "View products"
+msgstr "Bekijk producten"
+
+#: includes/I18n.php:210
+msgid "Close"
+msgstr "Sluiten"
+
+#: includes/I18n.php:211
+#,  
+msgid "NoProductFound"
+msgstr "NoProductFound"
+
+#: includes/I18n.php:212
+msgid "Image"
+msgstr "Afbeelding"
+
+#: includes/I18n.php:213 views/templates/emails/fooevents_ticket_details.php:71
+msgid "Name"
+msgstr "Naam"
+
+#: includes/I18n.php:215
+msgid "Change video"
+msgstr "Video vervangen"
+
+#: includes/I18n.php:216
+msgid "Newest"
+msgstr "Nieuwste"
+
+#: includes/I18n.php:217
+msgid "On sale"
+msgstr "Aanbieding"
+
+#: includes/I18n.php:218
+msgid "Featured"
+msgstr "Uitgelicht"
+
+#: includes/I18n.php:219
+#,  
+msgid "Category selections"
+msgstr "Categorie selecties"
+
+#: includes/I18n.php:220
+#,  
+msgid "Tag selections"
+msgstr "Tag selecties"
+
+#: includes/I18n.php:221
+#,  
+msgid "Product selections"
+msgstr "Product selecties"
+
+#: includes/I18n.php:222
+msgid "None"
+msgstr "Geen"
+
+#: includes/I18n.php:223
+msgid "Name A-Z"
+msgstr "Naam A-Z"
+
+#: includes/I18n.php:224
+msgid "Name Z-A"
+msgstr "Naam Z-A"
+
+#: includes/I18n.php:225
+#,  
+msgid "Ascending price"
+msgstr "Stijgende prijs"
+
+#: includes/I18n.php:226
+#,  
+msgid "Descending price"
+msgstr "Aflopende prijs"
+
+#: includes/I18n.php:227 includes/MailBuilder/Shortcodes.php:1746
+#: includes/MailBuilder/Shortcodes.php:1761
+msgid "Random"
+msgstr "Willekeurig"
+
+#: includes/I18n.php:228
+msgid "Change image"
+msgstr "Verander afbeelding"
+
+#: includes/I18n.php:229
+msgid "Image URL"
+msgstr "Afbeelding URL"
+
+#: includes/I18n.php:230
+msgid "URL"
+msgstr "URL"
+
+#: includes/I18n.php:231
+msgid "Width"
+msgstr "Breedte"
+
+#: includes/I18n.php:232
+msgid "Duplicate"
+msgstr "Kopiëren"
+
+#: includes/I18n.php:233
+#,  
+msgid "Copy this element to"
+msgstr "Kopieer dit element naar"
+
+#: includes/I18n.php:234
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: includes/I18n.php:236
+#,  
+msgid "Open mailbox"
+msgstr "Postvak openen"
+
+#: includes/I18n.php:237
+#,  
+msgid "Copy template element"
+msgstr "Sjabloonelement kopiëren"
+
+#: includes/I18n.php:238
+#,  
+msgid "Copy to"
+msgstr "Kopiëren van"
+
+#: includes/I18n.php:239
+#,  
+msgid "Copy Element"
+msgstr "Element kopiëren"
+
+#: includes/I18n.php:240
+msgid "Import template"
+msgstr "Importeer template"
+
+#: includes/I18n.php:241
+msgid "Loading products"
+msgstr "Producten laden"
+
+#: includes/I18n.php:242
+msgid "Blank"
+msgstr "Leeg"
+
+#: includes/I18n.php:243
+msgid "Send test email"
+msgstr "Verzend test e-mail"
+
+#: includes/I18n.php:244
+msgid "Select template"
+msgstr "Kies het sjabloon"
+
+#: includes/I18n.php:245
+msgid "Are you sure?"
+msgstr "Weet je het zeker?"
+
+#: includes/I18n.php:246
+msgid "Search"
+msgstr "Zoeken"
+
+#: includes/I18n.php:247
+msgid "Loading"
+msgstr "Laden"
+
+#: includes/I18n.php:248
+#,  
+msgid "Showing items"
+msgstr "Objecten weergeven"
+
+#: includes/I18n.php:249
+msgid "Top content"
+msgstr "Bovenkant inhoud"
+
+#: includes/I18n.php:250
+#,  
+msgid "Product price color"
+msgstr "Kleur van de productprijs"
+
+#: includes/I18n.php:251
+#,  
+msgid "Product original price color"
+msgstr "Product originele prijs kleur"
+
+#: includes/I18n.php:252
+#,  
+msgid "Buy text"
+msgstr "Tekst kopen"
+
+#: includes/I18n.php:253
+#,  
+msgid "Buy background color"
+msgstr "Achtergrondkleur kopen"
+
+#: includes/I18n.php:254
+#,  
+msgid "Buy text color"
+msgstr "Tekstkleur kopen"
+
+#: includes/I18n.php:255
+msgid "Number of products per row"
+msgstr "Aantal producten per rij"
+
+#: includes/I18n.php:256
+msgid "Content"
+msgstr "Inhoud"
+
+#: includes/I18n.php:257
+msgid "Button text"
+msgstr "Knop tekst"
+
+#: includes/I18n.php:258
+msgid "Button url"
+msgstr "Knop url"
+
+#: includes/I18n.php:259
+msgid "Button background color"
+msgstr "Button Achtergrondkleur"
+
+#: includes/I18n.php:260
+msgid "Button text color"
+msgstr "Button Tekstkleur"
+
+#: includes/I18n.php:261
+msgid "Content width"
+msgstr "Content breedte"
+
+#: includes/I18n.php:262
+msgid "Content align"
+msgstr "Inhoud uitlijnen"
+
+#: includes/I18n.php:263
+msgid "Background image"
+msgstr "Achtergrondafbeelding"
+
+#: includes/I18n.php:264
+msgid "Background repeat"
+msgstr "Achtergrond herhalen"
+
+#: includes/I18n.php:265
+msgid "Button align"
+msgstr "Knop uitlijning"
+
+#: includes/I18n.php:266
+msgid "Font size"
+msgstr "Lettertype grootte"
+
+#: includes/I18n.php:267
+msgid "Height"
+msgstr "Hoogte"
+
+#: includes/I18n.php:268
+msgid "Weight"
+msgstr "Gewicht"
+
+#: includes/I18n.php:269
+msgid "Line height"
+msgstr "Regelhoogte"
+
+#: includes/I18n.php:270
+msgid "Line color"
+msgstr "Lijnkleur"
+
+#: includes/I18n.php:271
+msgid "Line type"
+msgstr "Lijntype"
+
+#: includes/I18n.php:272
+#,  
+msgid "Wc hook order item"
+msgstr "Wc haak bestelartikel"
+
+#: includes/I18n.php:273
+#,  
+msgid "Icon spacing"
+msgstr "Pictogramafstand"
+
+#: includes/I18n.php:274
+#,  
+msgid "Styles theme"
+msgstr "Thema Stijlen"
+
+#: includes/I18n.php:275
+#,  
+msgid "Tracking details"
+msgstr "Tracking details"
+
+#: includes/I18n.php:276
+msgid "Image overlay"
+msgstr "Beeld bedekking"
+
+#: includes/I18n.php:277
+msgid "Video url"
+msgstr "Video url"
+
+#: includes/I18n.php:278
+#,  
+msgid "Apply to all templates"
+msgstr "Toepassen op alle sjablonen"
+
+#: includes/I18n.php:279
+msgid "Set as default"
+msgstr "Stel in als standaard"
+
+#: includes/I18n.php:280
+msgid "Background position"
+msgstr "Achtergrondpositie"
+
+#: includes/I18n.php:281
+msgid "Position"
+msgstr "Positie"
+
+#: includes/I18n.php:282
+msgid "Default"
+msgstr "Standaard"
+
+#: includes/I18n.php:283
+msgid "Center"
+msgstr "Midden"
+
+#: includes/I18n.php:284
+msgid "Custom"
+msgstr "Aangepast"
+
+#: includes/I18n.php:285
+msgid "Auto"
+msgstr "Automatisch"
+
+#: includes/I18n.php:286
+msgid "Cover"
+msgstr "Cover"
+
+#: includes/I18n.php:287
+msgid "Contain"
+msgstr "Bevatten"
+
+#: includes/I18n.php:288
+msgid "Column"
+msgstr "Kolom"
+
+#: includes/I18n.php:289
+#,  
+msgid "Column width"
+msgstr "Kolombreedte"
+
+#: includes/I18n.php:290
+msgid "HTML code"
+msgstr "HTML-code"
+
+#: includes/I18n.php:291
+#,  
+msgid "Import HTML code"
+msgstr "HTML-code importeren"
+
+#: includes/I18n.php:292 includes/I18n.php:301
+#,  
+msgid "Select column number"
+msgstr "Kolomnummer selecteren"
+
+#: includes/I18n.php:293
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: includes/I18n.php:294
+#,  
+msgid "Copy column"
+msgstr "Kolom kopiëren"
+
+#: includes/I18n.php:295
+msgid "Socials"
+msgstr "Social media"
+
+#: includes/I18n.php:296
+msgid "Background size"
+msgstr "Achtergrond grootte"
+
+#: includes/I18n.php:297
+#,  
+msgid "Add social"
+msgstr "Sociaal toevoegen"
+
+#: includes/I18n.php:298
+#,  
+msgid "Select social"
+msgstr "Selecteer sociaal"
+
+#: includes/I18n.php:299
+msgid "Update"
+msgstr "Bijwerken"
+
+#: includes/I18n.php:300
+#,  
+msgid "Select button number"
+msgstr "Knopnummer selecteren"
+
+#: includes/I18n.php:302
+#,  
+msgid "Translate Integration Priority"
+msgstr "Integratieprioriteit vertalen"
+
+#: includes/I18n.php:303
+#,  
+msgid "Search element"
+msgstr "Zoekelement"
+
+#: includes/I18n.php:304
+#,  
+msgid "This email template can be fully customized with YayMail Premium Addon."
+msgstr ""
+"Deze e-mailsjabloon kan volledig worden aangepast met YayMail Premium Addon."
+
+#: includes/I18n.php:305
+#,  
+msgid "This email template is unavailable at the moment."
+msgstr "Deze e-mailsjabloon is momenteel niet beschikbaar."
+
+#: includes/I18n.php:306
+#,  
+msgid "to see if it can be customized with"
+msgstr "om te zien of het kan worden aangepast met"
+
+#: includes/I18n.php:307
+msgid "Contact us"
+msgstr "Neem contact op"
+
+#: includes/I18n.php:308
+msgid "Email heading"
+msgstr "E-mail kop"
+
+#: includes/I18n.php:309
+msgid "Clear all"
+msgstr "Alles wissen"
+
+#: includes/I18n.php:310
+#,  
+msgid "You have no revision."
+msgstr "Je hebt geen revisie."
+
+#: includes/I18n.php:311
+msgid "saved by"
+msgstr "gered door"
+
+#: includes/I18n.php:312
+#,  
+msgid "Disable this template"
+msgstr "Deze sjabloon uitschakelen"
+
+#: includes/I18n.php:313
+#,  
+msgid "Enable this template"
+msgstr "Deze sjabloon inschakelen"
+
+#: includes/I18n.php:314
+msgid "Move up"
+msgstr "Verplaats omhoog"
+
+#: includes/I18n.php:315
+msgid "Move down"
+msgstr "Verplaats omlaag"
+
+#: includes/I18n.php:316
+msgid "Info"
+msgstr "Info"
+
+#: includes/I18n.php:317
+msgid "Success"
+msgstr "Succes"
+
+#: includes/I18n.php:318
+msgid "Warning"
+msgstr "Waarschuwing"
+
+#: includes/I18n.php:319
+msgid "Danger"
+msgstr "Gevaar"
+
+#: includes/I18n.php:320
+msgid "Undo"
+msgstr "Ongedaan maken"
+
+#: includes/I18n.php:321
+msgid "Redo"
+msgstr "Opnieuw"
+
+#: includes/I18n.php:322
+#,  
+msgid "Please save before send test"
+msgstr "Bewaar voordat u de test verzendt"
+
+#: includes/I18n.php:323
+msgid "Changes you made will be lost."
+msgstr "Wijzigingen gaan verloren."
+
+#: includes/I18n.php:324
+msgid "Small"
+msgstr "Klein"
+
+#: includes/I18n.php:325
+msgid "Medium"
+msgstr "Medium"
+
+#: includes/I18n.php:326
+msgid "Large"
+msgstr "Groot"
+
+#: includes/I18n.php:327
+msgid "XL"
+msgstr "XL"
+
+#: includes/I18n.php:328
+msgid "XXL"
+msgstr "XXL"
+
+#: includes/I18n.php:329
+msgid "Button"
+msgstr "Knop"
+
+#: includes/I18n.php:330
+msgid "Border"
+msgstr "Rand"
+
+#: includes/I18n.php:331
+msgid "Before"
+msgstr "Voor"
+
+#: includes/I18n.php:332
+msgid "After"
+msgstr "Na"
+
+#: includes/I18n.php:333
+#: views/templates/emails/email-order-items-preview.php:165
+#: views/templates/emails/email-order-items-preview.php:171
+#: views/templates/emails/email-order-items-preview.php:173
+#: views/templates/emails/email-order-items.php:165
+#: views/templates/emails/email-order-items.php:170
+msgid "Product image"
+msgstr "Productafbeelding"
+
+#: includes/I18n.php:334
+msgid "Product name"
+msgstr "Productnaam"
+
+#: includes/I18n.php:335 includes/I18n.php:337
+msgid "Product price"
+msgstr "Product prijs"
+
+#: includes/I18n.php:336
+msgid "Product original price"
+msgstr "Product originele prijs"
+
+#: includes/I18n.php:338
+msgid "Buy button"
+msgstr "Bestelknop"
+
+#: includes/I18n.php:339
+msgid "Edit"
+msgstr "Bewerken"
+
+#: includes/I18n.php:340
+msgid "No-repeat"
+msgstr "Niet herhalen"
+
+#: includes/I18n.php:341
+msgid "Repeat"
+msgstr "Herhalen"
+
+#: includes/I18n.php:342
+msgid "Repeat-X"
+msgstr "Herhaal-X"
+
+#: includes/I18n.php:343
+msgid "Repeat-Y"
+msgstr "Herhaal-Y"
+
+#: includes/I18n.php:344
+#,  
+msgid "Solid Dark"
+msgstr "Effen donker"
+
+#: includes/I18n.php:345
+msgid "Colorful"
+msgstr "Kleurrijk"
+
+#: includes/I18n.php:346
+#,  
+msgid "Line Dark"
+msgstr "Lijn Donker"
+
+#: includes/I18n.php:347
+#,  
+msgid "Solid Light"
+msgstr "Continu licht"
+
+#: includes/I18n.php:348
+#,  
+msgid "Line Light"
+msgstr "Lijnlicht"
+
+#: includes/I18n.php:349
+msgid "Color"
+msgstr "Kleur"
+
+#: includes/I18n.php:350
+#,  
+msgid "Media Image Library"
+msgstr "Mediabeeldbank"
+
+#: includes/I18n.php:351
+#,  
+msgid "Select a media"
+msgstr "Selecteer een medium"
+
+#: includes/I18n.php:352
+msgid "Use this image"
+msgstr "Gebruik deze afbeelding"
+
+#: includes/I18n.php:353
+msgid "Use this video"
+msgstr "Deze video gebruiken"
+
+#: includes/I18n.php:354
+#,  
+msgid "ACTIONS"
+msgstr "ACTIES"
+
+#: includes/I18n.php:355
+#,  
+msgid "REVISIONS"
+msgstr "REVISIES"
+
+#: includes/I18n.php:356
+#,  
+msgid "Save anyway"
+msgstr "Bewaar toch"
+
+#: includes/I18n.php:357
+#,  
+msgid ""
+"There are invalid values in your conditions, they will be removed when you "
+"proceed to save"
+msgstr ""
+"Er zijn ongeldige waarden in uw voorwaarden, deze worden verwijderd wanneer "
+"u doorgaat met opslaan"
+
+#. translators: %s: param
+#: includes/License/EDD_SL_Plugin_Updater.php:266
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Er is een nieuwe versie van %1$s beschikbaar; %2$sbekijk de versie%3$s-"
+"details%4$s."
+
+#. translators: %s: param
+#: includes/License/EDD_SL_Plugin_Updater.php:275
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Er is een nieuwe versie van %1$s beschikbaar; %2$sbekijk versie%3$s-"
+"details%4$s of %5$supdate nu%6$s."
+
+#: includes/License/EDD_SL_Plugin_Updater.php:532
+msgid "You do not have permission to install plugin updates"
+msgstr "U heeft onvoldoende rechten om deze plug-in te installeren"
+
+#: includes/License/EDD_SL_Plugin_Updater.php:532
+msgid "Error"
+msgstr "Fout"
+
+#. translators: woocommerce-pip.
+#: includes/MailBuilder/PIPTemplate.php:114
+#, php-format
+msgid "[%1$s] Packing List for invoice %2$s - order %3$s from %4$s"
+msgstr "[%1$s] Pakbon voor factuur %2$s - bestelling %3$s van %4$s"
+
+#. translators: woocommerce-pip.
+#: includes/MailBuilder/PIPTemplate.php:157
+#, php-format
+msgid "%d order"
+msgid_plural "%d orders"
+msgstr[0] "%d bestelling"
+msgstr[1] "%d bestellingen"
+
+#. translators: woocommerce-pip.
+#: includes/MailBuilder/PIPTemplate.php:160
+#, php-format
+msgid "[%1$s] Pick List for %2$s"
+msgstr "[%1$s] Pakbon voor %2$s"
+
+#. translators: woocommerce-pip.
+#: includes/MailBuilder/PIPTemplate.php:253
+#, php-format
+msgid "[%1$s] Invoice %2$s for order %3$s from %4$s"
+msgstr "[%1$s] Factuur %2$s voor bestelling %3$s van %4$s"
+
+#: includes/MailBuilder/Shortcodes.php:666
+#: includes/MailBuilder/Shortcodes.php:1471
+#: includes/MailBuilder/Shortcodes.php:1764
+msgid "Click here to reset your password"
+msgstr "Klik hier om je wachtwoord opnieuw in te stellen"
+
+#: includes/MailBuilder/Shortcodes.php:1253
+#: includes/MailBuilder/Shortcodes.php:1259
+#: includes/MailBuilder/Shortcodes.php:1261
+#: includes/MailBuilder/Shortcodes.php:1691
+#: includes/MailBuilder/Shortcodes.php:1697
+#: includes/MailBuilder/Shortcodes.php:1699
+msgid "YayMail"
+msgstr "YayMail"
+
+#: includes/MailBuilder/Shortcodes.php:1254
+#: includes/MailBuilder/Shortcodes.php:1262
+#: includes/MailBuilder/Shortcodes.php:1692
+#: includes/MailBuilder/Shortcodes.php:1700
+#: includes/MailBuilder/Shortcodes.php:1716
+msgid "1"
+msgstr "1"
+
+#: includes/MailBuilder/Shortcodes.php:1257
+#: includes/MailBuilder/Shortcodes.php:1258
+#: includes/MailBuilder/Shortcodes.php:1695
+#: includes/MailBuilder/Shortcodes.php:1696
+msgid "yaymail@gmail.com"
+msgstr "yaymail@gmail.com"
+
+#: includes/MailBuilder/Shortcodes.php:1285
+#: includes/MailBuilder/Shortcodes.php:1714
+msgid "Order"
+msgstr "Bestelling"
+
+#: includes/MailBuilder/Shortcodes.php:1316
+#: includes/MailBuilder/Shortcodes.php:1728
+msgid "Payment page"
+msgstr "Betaalpagina"
+
+#: includes/MailBuilder/Shortcodes.php:1533
+msgid "Your Order"
+msgstr "Uw bestelling"
+
+#: includes/MailBuilder/Shortcodes.php:1554
+#: includes/MailBuilder/Shortcodes.php:1887
+msgid "Pay the banking ticket"
+msgstr "Betaal het bankticket"
+
+#: includes/MailBuilder/Shortcodes.php:1727
+#: views/templates/emails/email-order-details-border-before.php:56
+#: views/templates/emails/email-order-details-border.php:60
+#: views/templates/emails/email-order-details.php:60
+#: views/templates/emails/email-order-payment-gateways.php:35
+#: views/templates/emails/sampleOrder/email-order-details-border-content.php:71
+#: views/templates/emails/sampleOrder/email-order-details-border.php:68
+#: views/templates/emails/sampleOrder/email-order-details.php:62
+msgid "Direct bank transfer"
+msgstr "Directe Bankoverschrijving"
+
+#: includes/MailBuilder/Shortcodes.php:1730
+msgid "Payment Instructions"
+msgstr "Betaal instructies"
+
+#: includes/MailBuilder/Shortcodes.php:1731
+msgid "Check payments"
+msgstr "Bekijk betalingen"
+
+#: includes/MailBuilder/Shortcodes.php:1735
+msgid "333"
+msgstr "333"
+
+#: includes/MailBuilder/Shortcodes.php:1737
+#: includes/MailBuilder/Shortcodes.php:1738
+msgid "755 E North Grove Rd"
+msgstr "755 E Noord Grove Rd"
+
+#: includes/MailBuilder/Shortcodes.php:1739
+msgid "Mayville, Michigan"
+msgstr "Mayville (Michigan)"
+
+#. Author of the plugin/theme
+#: includes/MailBuilder/Shortcodes.php:1740
+#: includes/MailBuilder/Shortcodes.php:1754
+msgid "YayCommerce"
+msgstr "YayCommerce"
+
+#: includes/MailBuilder/Shortcodes.php:1742
+#: includes/MailBuilder/Shortcodes.php:1757
+msgid "John"
+msgstr "John"
+
+#: includes/MailBuilder/Shortcodes.php:1743
+#: includes/MailBuilder/Shortcodes.php:1758
+msgid "Doe"
+msgstr "Doe"
+
+#: includes/MailBuilder/Shortcodes.php:1745
+#: includes/MailBuilder/Shortcodes.php:1760
+msgid "48744"
+msgstr "48744"
+
+#: includes/MailBuilder/Shortcodes.php:1747
+#: includes/MailBuilder/Shortcodes.php:1759
+msgid "(910) 529-1147"
+msgstr "(910) 529-1147"
+
+#: includes/MailBuilder/Shortcodes.php:1751
+#: includes/MailBuilder/Shortcodes.php:1752
+msgid "7400 Edwards Rd"
+msgstr "7400 Edwards Rd"
+
+#: includes/MailBuilder/Shortcodes.php:1753
+msgid "Edwards Rd"
+msgstr "Edwards Rd"
+
+#: includes/MailBuilder/Shortcodes.php:1756
+msgid "johndoe@gmail.com"
+msgstr "johndoe@gmail.com"
+
+#: includes/MailBuilder/Shortcodes.php:1769
+msgid "G(UAM1(eIX#G"
+msgstr "G (UAM1 (eIX # G"
+
+#: includes/MailBuilder/Shortcodes.php:1775
+msgid "note"
+msgstr "notitie"
+
+#: includes/MailBuilder/Shortcodes.php:1776
+msgid "notes"
+msgstr "notities"
+
+#: includes/MailBuilder/Shortcodes.php:1777
+msgid "provided note"
+msgstr "verstrekte notitie"
+
+#: includes/MailBuilder/Shortcodes.php:1781
+msgid "Additional content"
+msgstr "Aanvullende inhoud"
+
+#: includes/MailBuilder/Shortcodes.php:1795
+#: includes/MailBuilder/Shortcodes.php:1796
+msgid "sample status"
+msgstr "voorbeeldstatus"
+
+#: includes/MailBuilder/Shortcodes.php:1801
+msgid "yaymail_code"
+msgstr "yaymail_code"
+
+#: includes/MailBuilder/Shortcodes.php:2848
+msgid "Sunday"
+msgstr "Zondag"
+
+#: includes/MailBuilder/Shortcodes.php:2849
+msgid "Monday"
+msgstr "Maandag"
+
+#: includes/MailBuilder/Shortcodes.php:2850
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: includes/MailBuilder/Shortcodes.php:2851
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: includes/MailBuilder/Shortcodes.php:2852
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: includes/MailBuilder/Shortcodes.php:2853
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: includes/MailBuilder/Shortcodes.php:2854
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: includes/MailBuilder/Shortcodes.php:3052
+#: includes/MailBuilder/Shortcodes.php:3055
+msgid "Live track your order"
+msgstr "Volg uw bestelling live"
+
+#: includes/MailBuilder/Shortcodes.php:3229
+msgid "Slot"
+msgstr "Slot"
+
+#: includes/MailBuilder/Shortcodes.php:3240
+#: views/templates/emails/chitchats_shipping_shipments.php:20
+#: views/templates/emails/chitchats_shipping_shipments.php:54
+#: views/templates/emails/fooevents_ticket_details.php:31
+#: views/templates/emails/fooevents_ticket_details.php:42
+#: views/templates/emails/sampleOrder/chitchats_shipping_shipments.php:19
+#: views/templates/emails/sampleOrder/chitchats_shipping_shipments.php:34
+#: views/templates/emails/sampleOrder/wc_shipment_tracking-info.php:19
+#: views/templates/emails/wc_shipment_tracking-info.php:19
+msgid "Date"
+msgstr "Datum"
+
+#: includes/MailBuilder/Shortcodes.php:3435
+msgid "DHL Tracking Number"
+msgstr "DHL Tracking Nummer"
+
+#. translators: %s: Order tracking info.
+#: includes/MailBuilder/Shortcodes.php:3437
+#, php-format
+msgid ""
+": <a class=\"yaymai_dhl_tracking_url\" href=\"%s%s\" target=\"_blank\">%s</a>"
+msgstr ""
+": <a class=\"yaymai_dhl_tracking_url\" href=\"%s%s\" target=\"_blank\">%s</a>"
+
+#. translators: WC Order Number, New Status & Date on which the order was placed.
+#: includes/MailBuilder/WooTemplate.php:229
+#, php-format
+msgid "[%1$s] Order #%2$s status changed to %3$s - %4$s"
+msgstr "[%1$s] De status van order #%2$s is gewijzigd in %3$s - %4$s"
+
+#. translators: none.
+#: includes/MailBuilder/WooTemplate.php:394
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Wachtwoord Reset"
+
+#: includes/Page/Settings.php:111
+msgid "Customize with YayMail"
+msgstr "Aanpassen met YayMail"
+
+#: includes/Page/Settings.php:116
+msgid "View WooCommerce Email Builder"
+msgstr "Bekijk WooCommerce Email Builder"
+
+#: includes/Page/Settings.php:116
+msgid "Start Customizing"
+msgstr "Kies je"
+
+#: includes/Page/Settings.php:131 includes/Page/Settings.php:132
+msgid "Email Template"
+msgstr "E-mail Template"
+
+#: includes/Page/Settings.php:133
+msgid "Add New Email Template"
+msgstr "Voeg een nieuw e-mailsjabloon toe"
+
+#: includes/Page/Settings.php:134
+msgid "Add a new Email Template"
+msgstr "Een nieuwe e-mailsjabloon toevoegen"
+
+#: includes/Page/Settings.php:135
+msgid "Edit Email Template"
+msgstr "E-mail sjabloon bewerken"
+
+#: includes/Page/Settings.php:136
+msgid "New Email Template"
+msgstr "Nieuw e-mailsjabloon"
+
+#: includes/Page/Settings.php:137
+msgid "View Email Template"
+msgstr "Bekijk het e-mailsjabloon"
+
+#: includes/Page/Settings.php:138
+msgid "Search Email Template"
+msgstr "Zoek een e-mailsjabloon"
+
+#: includes/Page/Settings.php:139
+msgid "No Email Template found"
+msgstr "Geen e-mailsjabloon gevonden"
+
+#: includes/Page/Settings.php:140
+msgid "No Email Template currently trashed"
+msgstr "Geen e-mailsjabloon momenteel in de prullenbak"
+
+#: includes/Page/Settings.php:162
+msgid "Email Builder Settings"
+msgstr "Instellingen voor e-mailbouwers"
+
+#: includes/Page/Settings.php:162
+msgid "Email Customizer"
+msgstr "E-mail Customizer"
+
+#: includes/Page/Settings.php:489
+msgid "Custom Shortcode For "
+msgstr "Aangepaste shortcode voor "
+
+#: includes/Page/Settings.php:493
+msgid "Custom Shortcode"
+msgstr "Aangepaste Shortcode"
+
+#: includes/Page/Source/DefaultElement.php:713
+#: views/templates/emails/additional-order-details.php:32
+msgid "Additional Order Details"
+msgstr "Aanvullende bestelgegevens"
+
+#: includes/Page/Source/DisplayAddonNotice.php:195
+msgid ""
+"Recommend: You can use YayMail Addons to customize all email templates of:"
+msgstr ""
+"Aanbevelen: U kunt YayMail Addons gebruiken om alle e-mailsjablonen aan te "
+"passen van:"
+
+#: includes/Page/Source/DisplayAddonNotice.php:206
+msgid "See Addons"
+msgstr "Zie Addons"
+
+#: includes/Page/Source/DisplayAddonNotice.php:207
+#: includes/Page/Source/DisplayNotice.php:26
+msgid "No, thanks"
+msgstr "Nee, dank je"
+
+#: includes/Page/Source/DisplayNotice.php:16
+msgid "Please upgrade to YayMail Pro to customize emails with:"
+msgstr "Upgrade naar YayMail Pro om e-mails aan te passen met:"
+
+#: includes/Page/Source/DisplayNotice.php:25
+msgid "Upgrade Now"
+msgstr "Nu Bijwerken"
+
+#: includes/Page/Source/DisplayNotice.php:33
+msgid "WooCommerce Subscriptions (PRO)"
+msgstr "WooCommerce Subscriptions (PRO)"
+
+#: includes/Page/Source/DisplayNotice.php:39
+msgid "WooCommerce Shipment Tracking (PRO)"
+msgstr "WooCommerce Zending Tracking (PRO)"
+
+#: includes/Page/Source/DisplayNotice.php:45
+msgid "WooCommerce Order Status Manager (PRO)"
+msgstr "WooCommerce Order Status Manager (PRO)"
+
+#: includes/Page/Source/DisplayNotice.php:54
+msgid "WooCommerce Custom Email Templates (PRO)"
+msgstr "Woocommerce Aangepaste E-mail Templates (PRO)"
+
+#: includes/Page/Source/DisplayNotice.php:60
+msgid "WooCommerce Admin Custom Order fields (PRO)"
+msgstr "WooCommerce Admin Custom Order Fields (PRO)"
+
+#: includes/Templates/DefaultTemplate/AdvancedShipmentTracking/PartiallyShipped.php:24
+msgid "Your Order is Partially Shipped"
+msgstr "Uw bestelling is gedeeltelijk verzonden"
+
+#: includes/Templates/DefaultTemplate/AdvancedShipmentTracking/PartiallyShipped.php:25
+msgid "Hi there. we thought you'd like to know that your recent order from "
+msgstr ""
+"Hoi. we dachten dat je graag zou willen weten dat je recente bestelling van "
+
+#: includes/Templates/DefaultTemplate/AdvancedShipmentTracking/PartiallyShipped.php:25
+msgid " has been partially shipped."
+msgstr " is gedeeltelijk verzonden."
+
+#: includes/Templates/DefaultTemplate/AdvancedShipmentTracking/ShippedOrder.php:24
+msgid "Your Order is Shipped"
+msgstr "Uw bestelling is verzonden"
+
+#: includes/Templates/DefaultTemplate/AdvancedShipmentTracking/ShippedOrder.php:25
+msgid "Hi there. We thought you’d like to know that your recent order from "
+msgstr ""
+"Hoi. We dachten dat je graag zou willen weten dat je recente bestelling van "
+
+#: includes/Templates/DefaultTemplate/AdvancedShipmentTracking/ShippedOrder.php:25
+msgid " has been shipped."
+msgstr " is verzonden."
+
+#: includes/Templates/DefaultTemplate/BackInStockNotifier/NotifierInstockMail.php:24
+#: includes/Templates/DefaultTemplate/BackInStockNotifier/NotifierSubscribeMail.php:24
+msgid "Product [yaymail_notifier_product_name] has back in stock"
+msgstr "Product [yaymail_notifier_product_name] is weer op voorraad"
+
+#: includes/Templates/DefaultTemplate/CancelledOrder.php:26
+msgid "Order Cancelled: #{order_number}"
+msgstr "Geannuleerde bestelling: nummer {order_number}"
+
+#: includes/Templates/DefaultTemplate/CancelledOrder.php:28
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:27
+msgid "Notification to let you know &mdash; order #"
+msgstr "Melding om u dit te laten weten — bestellen #"
+
+#: includes/Templates/DefaultTemplate/CancelledOrder.php:28
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:27
+msgid " belonging to "
+msgstr " behorend tot "
+
+#: includes/Templates/DefaultTemplate/CancelledOrder.php:28
+msgid " has been cancelled:"
+msgstr " is geannuleerd:"
+
+#: includes/Templates/DefaultTemplate/CancelledOrder.php:29
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:28
+#: includes/Templates/DefaultTemplate/CustomerNote.php:28
+#: includes/Templates/DefaultTemplate/CustomerResetPassword.php:29
+msgid "Thanks for reading."
+msgstr "Bedankt voor je aandacht."
+
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:30
+msgid "You have received a subscription renewal order from "
+msgstr ""
+"U hebt een bestelling voor het verlengen van uw abonnement ontvangen van "
+
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:30
+msgid " . Their order is as follows:"
+msgstr " . Hun volgorde is als volgt:"
+
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:31
+#: includes/Templates/DefaultTemplate/NewOrder.php:26
+msgid "Congratulations on the sale."
+msgstr "Hopelijk loopt alles goed met deze verkoop."
+
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:34
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:38
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:42
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:46
+#: includes/Templates/DefaultTemplate/CustomerCompletedOrder.php:25
+#: includes/Templates/DefaultTemplate/CustomerInvoice.php:26
+#: includes/Templates/DefaultTemplate/CustomerNewAccount.php:27
+#: includes/Templates/DefaultTemplate/CustomerNote.php:25
+#: includes/Templates/DefaultTemplate/CustomerOnHoldOrder.php:25
+#: includes/Templates/DefaultTemplate/CustomerProcessingOrder.php:26
+#: includes/Templates/DefaultTemplate/CustomerRefundedOrder.php:25
+#: includes/Templates/DefaultTemplate/CustomerResetPassword.php:25
+msgid "Hi "
+msgstr "Hallo "
+
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:34
+msgid ""
+"Just to let you know &mdash; we've received your subscription renewal order #"
+msgstr ""
+"Om u dit te laten weten - we hebben uw bestelling voor abonnementsverlenging "
+"ontvangen #"
+
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:34
+#: includes/Templates/DefaultTemplate/CustomerProcessingOrder.php:27
+msgid ", and it is now being processed:"
+msgstr ", en het wordt nu verwerkt:"
+
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:35
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:47
+msgid "Thanks for using "
+msgstr "Bedankt voor het gebruik "
+
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:38
+msgid "We have finished processing your subscription renewal order."
+msgstr "We hebben de abonnementsverlenging succesvol kunnen verwerken."
+
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:39
+#: includes/Templates/DefaultTemplate/CustomerCompletedOrder.php:27
+msgid "Thanks for shopping with us."
+msgstr "Dank je voor het vertrouwen in ons."
+
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:42
+msgid ""
+"Thanks for your renewal order. It's on-hold until we confirm that payment "
+"has been received. In the meantime, here's a reminder of your order:"
+msgstr ""
+"Bedankt voor uw verlengingsopdracht. Het staat in de wacht totdat we "
+"bevestigen dat de betaling is ontvangen. In de tussentijd is hier een "
+"herinnering aan uw bestelling:"
+
+#: includes/Templates/DefaultTemplate/CustomOrderStastus.php:43
+#: includes/Templates/DefaultTemplate/CustomerOnHoldOrder.php:27
+msgid "We look forward to fulfilling your order soon."
+msgstr "We doen ons best om jouw order zo snel mogelijk te voltooien."
+
+#: includes/Templates/DefaultTemplate/CustomerCompletedOrder.php:24
+msgid "Thanks for shopping with us"
+msgstr "Bedankt dat u bij ons winkelt"
+
+#: includes/Templates/DefaultTemplate/CustomerCompletedOrder.php:26
+msgid "We have finished processing your order."
+msgstr "Bedankt voor je bestelling. Hierbij de betalingsgegevens."
+
+#: includes/Templates/DefaultTemplate/CustomerInvoice.php:24
+msgid "Your invoice for order #{order_number}"
+msgstr "Uw factuur voor bestelling #{order_number}"
+
+#: includes/Templates/DefaultTemplate/CustomerInvoice.php:27
+msgid "Here are the details of your order placed on "
+msgstr "Hier zijn de details van uw bestelling geplaatst op "
+
+#: includes/Templates/DefaultTemplate/CustomerInvoice.php:28
+#: includes/Templates/DefaultTemplate/CustomerProcessingOrder.php:28
+msgid "Thanks for using {site_url}!"
+msgstr "Bedankt dat je {site_url} gebruikt!"
+
+#: includes/Templates/DefaultTemplate/CustomerNewAccount.php:25
+msgid "Welcome to {site_title}"
+msgstr "Uw inschrijving  {site_title}"
+
+#: includes/Templates/DefaultTemplate/CustomerNewAccount.php:28
+msgid "Thanks for creating an account on "
+msgstr "Bedankt voor het aanmaken van een account op "
+
+#: includes/Templates/DefaultTemplate/CustomerNewAccount.php:28
+msgid ". Your username is "
+msgstr ". Uw gebruikersnaam is "
+
+#: includes/Templates/DefaultTemplate/CustomerNewAccount.php:28
+msgid ""
+". You can access your account area to view orders, change your password, and "
+"more at: "
+msgstr ""
+". U kunt toegang krijgen tot uw accountgebied om bestellingen te bekijken, "
+"uw wachtwoord te wijzigen en meer op: "
+
+#: includes/Templates/DefaultTemplate/CustomerNewAccount.php:29
+msgid "We look forward to seeing you soon."
+msgstr "Met vriendelijke groeten {site_title}"
+
+#. translators: %s: Auto generated password
+#: includes/Templates/DefaultTemplate/CustomerNewAccount.php:34
+#, php-format
+msgid "Your password has been automatically generated: %s"
+msgstr "Uw wachtwoord is automatisch gegenereerd: %s"
+
+#: includes/Templates/DefaultTemplate/CustomerNote.php:24
+msgid "A note has been added to your order"
+msgstr "Een notitie is toegevoegd aan uw bestelling"
+
+#: includes/Templates/DefaultTemplate/CustomerNote.php:26
+msgid "The following note has been added to your order:"
+msgstr "Er is zojuist een notitie toegevoegd aan je bestelling:"
+
+#: includes/Templates/DefaultTemplate/CustomerNote.php:27
+msgid "As a reminder, here are your order details:"
+msgstr "Ter herinnering, dit zijn de details van uw bestelling:"
+
+#: includes/Templates/DefaultTemplate/CustomerOnHoldOrder.php:24
+#: includes/Templates/DefaultTemplate/CustomerProcessingOrder.php:25
+msgid "Thank you for your order"
+msgstr "Bedankt voor uw bestelling"
+
+#: includes/Templates/DefaultTemplate/CustomerOnHoldOrder.php:26
+msgid ""
+"Thanks for your order. It's on-hold until we confirm that payment has been "
+"received. In the meantime, here's a reminder of what you ordered:"
+msgstr ""
+"Bedankt voor uw bestelling. Het staat in de wacht totdat we bevestigen dat "
+"de betaling is ontvangen. In de tussentijd is hier een herinnering aan wat "
+"je hebt besteld:"
+
+#: includes/Templates/DefaultTemplate/CustomerProcessingOrder.php:27
+msgid "Just to let you know &mdash; we've received your order #"
+msgstr "Om u dit te laten weten - we hebben uw bestelling ontvangen #"
+
+#: includes/Templates/DefaultTemplate/CustomerRefundedOrder.php:26
+msgid "Your order on "
+msgstr "Volg uw bestelling live "
+
+#: includes/Templates/DefaultTemplate/CustomerRefundedOrder.php:26
+msgid " has been refunded. There are more details below for your reference:"
+msgstr " is terugbetaald. Er zijn meer details hieronder voor uw referentie:"
+
+#: includes/Templates/DefaultTemplate/CustomerRefundedOrder.php:27
+msgid "We hope to see you again soon."
+msgstr "We hopen je snel weer te mogen verwelkomen."
+
+#: includes/Templates/DefaultTemplate/CustomerResetPassword.php:24
+msgid "Password Reset Request"
+msgstr "Wachtwoord Reset Verzoek"
+
+#: includes/Templates/DefaultTemplate/CustomerResetPassword.php:26
+msgid "Someone has requested a new password for the following account on "
+msgstr ""
+"Iemand heeft een nieuw wachtwoord aangevraagd voor het volgende account op "
+
+#: includes/Templates/DefaultTemplate/CustomerResetPassword.php:27
+msgid ""
+"If you didn't make this request, just ignore this email. If you'd like to "
+"proceed:"
+msgstr "Als u dit niet was dan kunt u deze mail negeren. Als u door wilt gaan:"
+
+#: includes/Templates/DefaultTemplate/CustomerResetPassword.php:28
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: includes/Templates/DefaultTemplate/FailedOrder.php:24
+msgid "Order Failed: #{order_number}"
+msgstr "Bestelling mislukt: #{order_number}"
+
+#: includes/Templates/DefaultTemplate/FailedOrder.php:26
+msgid "Payment for order #"
+msgstr "Betaling voor bestelling #"
+
+#: includes/Templates/DefaultTemplate/FailedOrder.php:26
+msgid " from "
+msgstr " van "
+
+#: includes/Templates/DefaultTemplate/FailedOrder.php:26
+msgid " has failed. The order was as follows:"
+msgstr " heeft gefaald. De volgorde was als volgt:"
+
+#: includes/Templates/DefaultTemplate/FailedOrder.php:27
+msgid ""
+"Hopefully they'll be back. Read more about <a href=\\\"https://docs."
+"woocommerce.com/document/managing-orders/\\\">troubleshooting failed "
+"payments</a>."
+msgstr ""
+"Hopelijk komen ze terug. Lees meer over <a href=\"\\\"https://docs."
+"woocommerce.com/document/managing-orders/\\\"\">het oplossen van problemen "
+"met mislukte betalingen</a>."
+
+#: includes/Templates/DefaultTemplate/NewOrder.php:24
+msgid "New order"
+msgstr "Nieuwe bestelling"
+
+#: includes/Templates/DefaultTemplate/NewOrder.php:25
+msgid "You've received the following order from "
+msgstr "Je hebt de volgende bestelling ontvangen van "
+
+#: includes/Templates/DefaultTemplate/OrderStatus.php:27
+msgid "Status changed from "
+msgstr "Status gewijzigd van "
+
+#: includes/Templates/DefaultTemplate/OrderStatus.php:27
+msgid " to "
+msgstr " aan "
+
+#: includes/Templates/DefaultTemplate/OrderStatus.php:29
+msgid "Your order is now "
+msgstr "Uw bestelling is nu "
+
+#: includes/Templates/Elements/YayMail/FooEventsTicket.php:24
+msgid "Ticket Details"
+msgstr "Ticket details"
+
+#: includes/Templates/Elements/YayMail/ShippingTaxShipmentTracking.php:24
+msgid "Tracking"
+msgstr "Tracking"
+
+#: views/templates/emails/LatePoint/SampleTemplate/latepoint-booking-detail.php:11
+msgid "Booking Number:"
+msgstr "Boeking Nummer:"
+
+#: views/templates/emails/LatePoint/SampleTemplate/latepoint-booking-detail.php:18
+#: views/templates/emails/LatePoint/latepoint-booking-detail.php:51
+msgid "Date/Tanggal"
+msgstr "Datum/Tanggal"
+
+#: views/templates/emails/LatePoint/SampleTemplate/latepoint-booking-detail.php:21
+#: views/templates/emails/LatePoint/latepoint-booking-detail.php:54
+#: views/templates/emails/sampleOrder/jet-booking-details.php:28
+msgid "Time"
+msgstr "Tijd"
+
+#: views/templates/emails/LatePoint/SampleTemplate/latepoint-booking-detail.php:24
+#: views/templates/emails/LatePoint/latepoint-booking-detail.php:57
+msgid "Name/Nama"
+msgstr "Naam/Nama"
+
+#: views/templates/emails/LatePoint/SampleTemplate/latepoint-booking-detail.php:27
+#: views/templates/emails/LatePoint/latepoint-booking-detail.php:60
+msgid "Adult"
+msgstr "Volwassene"
+
+#: views/templates/emails/LatePoint/SampleTemplate/latepoint-booking-detail.php:31
+#: views/templates/emails/LatePoint/latepoint-booking-detail.php:64
+msgid "Child"
+msgstr "Kind"
+
+#: views/templates/emails/LatePoint/latepoint-booking-detail.php:45
+msgid "Booking Detail"
+msgstr "Reserveringsdetails"
+
+#: views/templates/emails/advanced_local_pickup_instruction.php:182
+msgid " - "
+msgstr " - "
+
+#: views/templates/emails/advanced_local_pickup_instruction.php:203
+msgid " To "
+msgstr " Tot "
+
+#. translators: %1$s: search number, %2$s: search total trackings
+#: views/templates/emails/ast-pro-tpi-email-order-details.php:107
+#, php-format
+msgid "Shipment %1$s (out of %2$s):"
+msgstr "Verzending %1$s (buiten %2$s):"
+
+#: views/templates/emails/ast_pro_shipment_tracking-info.php:75
+#: views/templates/emails/ast_pro_shipment_tracking-info.php:123
+#: views/templates/emails/wc_advanced_shipment_tracking-info.php:69
+msgid "Shipped"
+msgstr "Verzonden"
+
+#: views/templates/emails/ast_pro_shipment_tracking-info.php:80
+#: views/templates/emails/ast_pro_shipment_tracking-info.php:87
+#: views/templates/emails/ast_pro_shipment_tracking-info.php:128
+#: views/templates/emails/ast_pro_shipment_tracking-info.php:135
+#: views/templates/emails/wc_advanced_shipment_tracking-info.php:74
+#: views/templates/emails/wc_advanced_shipment_tracking-info.php:81
+msgid "Shipped on"
+msgstr "Verzonden op"
+
+#: views/templates/emails/chitchats_shipping_shipments.php:18
+#: views/templates/emails/chitchats_shipping_shipments.php:29
+#: views/templates/emails/parcel_panel_shipment_tracking.php:57
+#: views/templates/emails/ph_shipment_tracking_api_manager.php:28
+#: views/templates/emails/sampleOrder/chitchats_shipping_shipments.php:17
+#: views/templates/emails/sampleOrder/chitchats_shipping_shipments.php:25
+#: views/templates/emails/sampleOrder/parcel_panel_shipment_tracking.php:49
+#: views/templates/emails/sampleOrder/ph_shipment_tracking_api_manager.php:28
+#: views/templates/emails/sampleOrder/wc_shipment_tracking-info.php:18
+#: views/templates/emails/sampleOrder/wc_shipment_tracking-info.php:42
+#: views/templates/emails/wc_shipment_tracking-info.php:18
+#: views/templates/emails/wc_shipment_tracking-info.php:60
+msgid "Tracking Number"
+msgstr "Traceringsnummer"
+
+#: views/templates/emails/chitchats_shipping_shipments.php:19
+#: views/templates/emails/chitchats_shipping_shipments.php:42
+#: views/templates/emails/parcel_panel_shipment_tracking.php:66
+#: views/templates/emails/ph_shipment_tracking_api_manager.php:31
+#: views/templates/emails/sampleOrder/chitchats_shipping_shipments.php:18
+#: views/templates/emails/sampleOrder/chitchats_shipping_shipments.php:28
+#: views/templates/emails/sampleOrder/parcel_panel_shipment_tracking.php:56
+#: views/templates/emails/sampleOrder/ph_shipment_tracking_api_manager.php:31
+#: views/templates/emails/sampleOrder/wc_shipment_tracking-info.php:45
+#: views/templates/emails/wc_shipment_tracking-info.php:65
+msgid "Status"
+msgstr "Status"
+
+#: views/templates/emails/chitchats_shipping_shipments.php:57
+#: views/templates/emails/chitchats_shipping_shipments.php:58
+#: views/templates/emails/sampleOrder/chitchats_shipping_shipments.php:37
+#: views/templates/emails/sampleOrder/chitchats_shipping_shipments.php:38
+#: views/templates/emails/sampleOrder/parcel_panel_shipment_tracking.php:60
+#: views/templates/emails/sampleOrder/wc_shipment_tracking-info.php:49
+#: views/templates/emails/wc_shipment_tracking-info.php:72
+msgid "Track"
+msgstr "Volgen"
+
+#. translators: %s: Formatted shipping date
+#: views/templates/emails/dpdch_tracking_number.php:16
+#, php-format
+msgid ""
+"Die Bestellung wird am %s mit DPD verschickt. Hier der Link um die Sendung "
+"zu verfolgen: "
+msgstr ""
+"Die Bestellung wird am %s mit DPD verschickt. Hier der Link um die Sendung "
+"zu verfolgen: "
+
+#: views/templates/emails/email-order-details-border-before.php:12
+#: views/templates/emails/email-order-details-border.php:14
+#: views/templates/emails/email-order-details.php:14
+#: views/templates/emails/email-order-payment-gateways.php:12
+msgid "Cash on delivery"
+msgstr "Betalen bij levering"
+
+#: views/templates/emails/email-order-details-border-before.php:74
+#: views/templates/emails/email-order-details-border.php:79
+#: views/templates/emails/email-order-details.php:79
+#: views/templates/emails/email-order-payment-gateways.php:41
+msgid "Our bank details"
+msgstr "Onze bankgegevens"
+
+#. translators: %s: Order ID.
+#: views/templates/emails/email-order-details-border.php:128
+#: views/templates/emails/email-order-details-border.php:133
+#: views/templates/emails/email-order-details.php:129
+#: views/templates/emails/email-order-details.php:134
+#: views/templates/emails/sampleOrder/email-order-details-border.php:20
+#: views/templates/emails/sampleOrder/email-order-details.php:19
+#, php-format
+msgid "[Order #%s]"
+msgstr "Bestelling #%s"
+
+#: views/templates/emails/email-order-item-download.php:74
+msgid "Never"
+msgstr "Nooit"
+
+#: views/templates/emails/fooevents_ticket_details.php:34
+#: views/templates/emails/fooevents_ticket_details.php:48
+#: views/templates/emails/fooevents_ticket_details.php:62
+msgid "Start time"
+msgstr "Starttijd"
+
+#: views/templates/emails/fooevents_ticket_details.php:37
+#: views/templates/emails/fooevents_ticket_details.php:51
+#: views/templates/emails/fooevents_ticket_details.php:65
+msgid "End time"
+msgstr "Eindtijd"
+
+#: views/templates/emails/fooevents_ticket_details.php:58
+msgid "Day "
+msgstr "Dag "
+
+#: views/templates/emails/fooevents_ticket_details.php:72
+msgid "Email"
+msgstr "E-mail"
+
+#: views/templates/emails/fooevents_ticket_details.php:74
+msgid "Telephone"
+msgstr "Telefoon"
+
+#: views/templates/emails/fooevents_ticket_details.php:77
+msgid "Company"
+msgstr "Bedrijf"
+
+#: views/templates/emails/fooevents_ticket_details.php:80
+msgid "Designation"
+msgstr "Functie"
+
+#. translators:  booking options
+#: views/templates/emails/fooevents_ticket_details.php:87
+#: views/templates/emails/fooevents_ticket_details.php:93
+#, php-format
+msgid "Booking %s"
+msgstr "Reserveringsstatus %s"
+
+#: views/templates/emails/fooevents_ticket_details.php:99
+msgid "Row"
+msgstr "Rij"
+
+#: views/templates/emails/fooevents_ticket_details.php:100
+msgid "Seat"
+msgstr "Stoel"
+
+#: views/templates/emails/jet-booking-details.php:9
+#: views/templates/emails/sampleOrder/jet-booking-details.php:9
+msgid "Booking Details"
+msgstr "Boekingsgegevens"
+
+#: views/templates/emails/parcel_panel_shipment_tracking.php:53
+#: views/templates/emails/sampleOrder/parcel_panel_shipment_tracking.php:45
+msgid "Order Number"
+msgstr "Bestelnummer"
+
+#: views/templates/emails/parcel_panel_shipment_tracking.php:62
+#: views/templates/emails/sampleOrder/parcel_panel_shipment_tracking.php:54
+msgid "Carrier"
+msgstr "Hoe te kopen"
+
+#: views/templates/emails/ph_shipment_tracking_api_manager.php:21
+#: views/templates/emails/sampleOrder/ph_shipment_tracking_api_manager.php:21
+msgid "Tracking No."
+msgstr "Traceringsnr."
+
+#: views/templates/emails/ph_shipment_tracking_api_manager.php:22
+#: views/templates/emails/sampleOrder/ph_shipment_tracking_api_manager.php:22
+msgid "Description"
+msgstr "Omschrijving"
+
+#: views/templates/emails/sampleOrder/ast_pro_shipment_tracking-info.php:61
+#: views/templates/emails/sampleOrder/ast_pro_shipment_tracking-info.php:101
+#: views/templates/emails/sampleOrder/wc_advanced_shipment_tracking-info.php:72
+#: views/templates/emails/sampleOrder/wc_advanced_shipment_tracking-info.php:112
+msgid "Shipped on:"
+msgstr "Verzonden op:"
+
+#: views/templates/emails/sampleOrder/email-order-details-border-content.php:43
+msgid "Happy YayCommerce"
+msgstr "Gelukkig YayCommerce"
+
+#: views/templates/emails/sampleOrder/email-order-details-border.php:46
+#: views/templates/emails/sampleOrder/email-order-details.php:40
+msgid "Happy YayCommerce2"
+msgstr "Gelukkig YayCommerce2"
+
+#: views/templates/emails/sampleOrder/email-order-details-border.php:51
+#: views/templates/emails/sampleOrder/email-order-details-border.php:60
+#: views/templates/emails/sampleOrder/email-order-details-border.php:76
+#: views/templates/emails/sampleOrder/email-order-details.php:45
+#: views/templates/emails/sampleOrder/email-order-details.php:54
+#: views/templates/emails/sampleOrder/email-order-details.php:70
+msgid "£18.00"
+msgstr "18,00 pond"
+
+#: views/templates/emails/sampleOrder/email-order-item-download.php:48
+msgid "Downloadable Product"
+msgstr "Downloadbaar Product"
+
+#: views/templates/emails/sampleOrder/email-order-item-download.php:54
+msgid "Download.doc"
+msgstr "Downloaden.doc"
+
+#: views/templates/emails/sampleOrder/jet-booking-details.php:16
+msgid "Check In"
+msgstr "Inchecken"
+
+#: views/templates/emails/sampleOrder/jet-booking-details.php:19
+msgid "adults"
+msgstr "volwassenen"
+
+#: views/templates/emails/sampleOrder/jet-booking-details.php:22
+msgid "children"
+msgstr "kinderen"
+
+#: views/templates/emails/sampleOrder/jet-booking-details.php:25
+msgid "name"
+msgstr "naam"
+
+#: views/templates/emails/sampleOrder/parcel_panel_shipment_tracking.php:46
+msgid "#1"
+msgstr "#1"
+
+#: views/templates/emails/sampleOrder/parcel_panel_shipment_tracking.php:50
+#: views/templates/emails/sampleOrder/parcel_panel_shipment_tracking.php:57
+#: views/templates/emails/sampleOrder/wc_shipment_tracking-info.php:29
+#: views/templates/emails/sampleOrder/wc_shipment_tracking-info.php:38
+msgid "yaymail"
+msgstr "YayMail"
+
+#: views/templates/emails/sampleOrder/shipping_tax_shipment_tracking.php:18
+#: views/templates/emails/sampleOrder/wc_shipment_tracking-info.php:17
+#: views/templates/emails/sampleOrder/wc_shipment_tracking-info.php:28
+#: views/templates/emails/sampleOrder/wc_shipment_tracking-info.php:34
+#: views/templates/emails/sampleOrder/wc_shipment_tracking-info.php:37
+#: views/templates/emails/shipping_tax_shipment_tracking.php:18
+#: views/templates/emails/wc_shipment_tracking-info.php:17
+#: views/templates/emails/wc_shipment_tracking-info.php:33
+#: views/templates/emails/wc_shipment_tracking-info.php:52
+#: views/templates/emails/wc_shipment_tracking-info.php:55
+msgid "Provider"
+msgstr "Provider"
+
+#: views/templates/emails/sampleOrder/shipping_tax_shipment_tracking.php:19
+#: views/templates/emails/shipping_tax_shipment_tracking.php:19
+msgid "Tracking number"
+msgstr "Trackingnummer"
+
+#: views/templates/emails/sampleOrder/tracking_more_info.php:9
+#: views/templates/emails/tracking_more_info.php:104
+msgid "Your order was shipped via "
+msgstr "Uw bestelling is verzonden via "
+
+#: views/templates/emails/sampleOrder/tracking_more_info.php:10
+#: views/templates/emails/tracking_more_info.php:105
+msgid "Tracking number is "
+msgstr "Volgnummer is "
+
+#: views/templates/emails/sampleOrder/wc_shipment_tracking-info.php:43
+msgid "123"
+msgstr "123"
+
+#. translators: Version.
+#: views/templates/emails/software_add_on.php:22
+#, php-format
+msgid "Version %s"
+msgstr "Versie %s"
+
+#: views/templates/emails/software_add_on.php:27
+msgid "License Email:"
+msgstr "Licentie E-mail:"
+
+#: views/templates/emails/software_add_on.php:28
+msgid "License Key:"
+msgstr "Licentie Code:"
+
+#. translators: activations remaining.
+#: views/templates/emails/software_add_on.php:33
+#, php-format
+msgid "%d activations remaining"
+msgstr "%d resterende activeringen"
+
+#: views/templates/emails/tracking_more_info.php:24
+msgid "Tracking number:"
+msgstr "Track & Trace:"
+
+#: views/templates/emails/tracking_more_info.php:84
+msgid "l jS F Y"
+msgstr "l jS F Y"
+
+#: views/templates/emails/wc_shipment_tracking-title.php:12
+msgid "Tracking Information"
+msgstr "Tracking informatie"
+
+#: views/templates/emails/yith_barcode.php:21
+msgid "No barcode is available for this element."
+msgstr "Er is geen streepjescode beschikbaar voor dit element."
+
+#. translators: %s: search WooCommerce plugin link
+#: yaymail.php:91
+#, php-format
+msgid ""
+"is enabled but not effective. It requires %1$sWooCommerce%2$s in order to "
+"work."
+msgstr ""
+"is ingeschakeld, maar niet effectief. Het vereist %1$sWooCommerce%2$s om te "
+"kunnen werken."
+
+#. Plugin Name of the plugin/theme
+msgid "YayMail Pro - WooCommerce Email Customizer"
+msgstr "YayMail Pro - WooCommerce E-mail Customizer"
+
+#. Plugin URI of the plugin/theme
+msgid "https://yaycommerce.com/yaymail-woocommerce-email-customizer/"
+msgstr "https://yaycommerce.com/yaymail-woocommerce-email-customizer/"
+
+#. Description of the plugin/theme
+msgid "Create awesome transactional emails with a drag and drop email builder"
+msgstr ""
+"Maak geweldige transactionele e-mails met een e-mailbouwer met slepen en "
+"neerzetten"
+
+#. Author URI of the plugin/theme
+msgid "https://yaycommerce.com"
+msgstr "https://yaycommerce.com"

@@ -1,0 +1,197 @@
+# Copyright (C) 2020 Shiva Poudel
+# This file is distributed under the same license as the WooCommerce eSewa plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce eSewa 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-esewa\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-14T02:34:50+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0-alpha\n"
+"X-Domain: woocommerce-esewa\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce eSewa"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/shivapoudel/woocommerce-esewa"
+msgstr ""
+
+#. Description of the plugin
+msgid "WooCommerce eSewa is a Nepali payment gateway for WooCommerce."
+msgstr ""
+
+#. Author of the plugin
+msgid "Shiva Poudel"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://shivapoudel.com"
+msgstr ""
+
+#: includes/class-wc-gateway-esewa.php:40
+msgid "Proceed to eSewa"
+msgstr ""
+
+#: includes/class-wc-gateway-esewa.php:41
+#: includes/gateways/settings-esewa.php:25
+msgid "eSewa"
+msgstr ""
+
+#: includes/class-wc-gateway-esewa.php:42
+msgid "Take payments via eSewa - sends customers to eSewa to enter their payment information."
+msgstr ""
+
+#: includes/class-wc-gateway-esewa.php:62
+msgid "SANDBOX ENABLED. You can use testing accounts only."
+msgstr ""
+
+#: includes/class-wc-gateway-esewa.php:148
+msgid "Gateway Disabled"
+msgstr ""
+
+#: includes/class-wc-gateway-esewa.php:148
+msgid "eSewa does not support your store currency."
+msgstr ""
+
+#: includes/class-woocommerce-esewa.php:106
+msgid "View WooCommerce eSewa settings"
+msgstr ""
+
+#: includes/class-woocommerce-esewa.php:106
+msgid "Settings"
+msgstr ""
+
+#. translators: %s: woocommerce version
+#: includes/class-woocommerce-esewa.php:117
+msgid "WooCommerce eSewa depends on the last version of %s or later to work!"
+msgstr ""
+
+#. translators: %s: woocommerce version
+#: includes/class-woocommerce-esewa.php:117
+msgid "WooCommerce 3.0"
+msgstr ""
+
+#: includes/gateways/class-wc-gateway-esewa-ipn-handler.php:73
+msgid "eSewa IPN response failed."
+msgstr ""
+
+#: includes/gateways/class-wc-gateway-esewa-ipn-handler.php:162
+msgid "IPN payment completed"
+msgstr ""
+
+#. translators: %s: pending reason
+#: includes/gateways/class-wc-gateway-esewa-ipn-handler.php:170
+msgid "Payment pending: %s"
+msgstr ""
+
+#. translators: %s: payment status
+#: includes/gateways/class-wc-gateway-esewa-ipn-handler.php:182
+msgid "Payment %s via IPN."
+msgstr ""
+
+#. translators: %s: order link.
+#: includes/gateways/class-wc-gateway-esewa-ipn-handler.php:195
+msgid "Payment for cancelled order %s received"
+msgstr ""
+
+#. translators: %s: order ID.
+#: includes/gateways/class-wc-gateway-esewa-ipn-handler.php:197
+msgid "Order #%s has been marked paid by eSewa IPN, but was previously cancelled. Admin handling required."
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:15
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:17
+msgid "Enable eSewa Payment"
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:21
+msgid "Title"
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:24
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:28
+msgid "Description"
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:31
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:32
+msgid "Pay via eSewa; you can pay with eSewa account securely."
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:35
+msgid "Live Merchant/Service code"
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:38
+#: includes/gateways/settings-esewa.php:45
+msgid "Please enter your eSewa Merchant/Service Code; this is needed in order to take payment."
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:42
+msgid "Test Merchant/Service code"
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:49
+msgid "Invoice prefix"
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:52
+msgid "Please enter a prefix for your invoice numbers. If you use your eSewa account for multiple stores ensure this prefix is unique as eSewa will not allow orders with the same invoice number."
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:56
+msgid "Advanced options"
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:61
+msgid "Sandbox mode"
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:63
+msgid "Enable Sandbox Mode"
+msgstr ""
+
+#. translators: %s: eSewa contact page
+#: includes/gateways/settings-esewa.php:66
+msgid "Enable eSewa sandbox to test payments. Please contact eSewa Merchant/Service Provider for a <a href=\"%s\" target=\"_blank\">developer account</a>."
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:69
+msgid "Debug log"
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:71
+msgid "Enable logging"
+msgstr ""
+
+#. translators: %s: eSewa log file path
+#: includes/gateways/settings-esewa.php:74
+msgid "Log eSewa events, such as IPN requests, inside <code>%s</code>"
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:77
+msgid "IPN Email Notifications"
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:79
+msgid "Enable IPN email notifications"
+msgstr ""
+
+#: includes/gateways/settings-esewa.php:81
+msgid "Send notifications when an IPN is received from eSewa indicating cancellations."
+msgstr ""

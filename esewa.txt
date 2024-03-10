@@ -1,0 +1,22 @@
+
+eSewa ID: 9806800001/2/3/4/5
+Password: Nepal@123
+MPIN: 1122 (for application only)
+Merchant ID/Service Code: EPAYTEST
+Token:123456
+invoice prefix : WC-
+
+
+
+
+
+
+
+test_secret_key_df6d756067fe409d8b417150b31e0d17
+
+
+
+
+test_public_key_c7064282a7a04d4cb6c1d1671a774eb8
+
+
